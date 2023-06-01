@@ -16,12 +16,12 @@ VAR qs=3
 }
 
  questions and gain immortality, which will you answer first?
-*First question[?] ->q1
-*Second question[?] ->q2
-*Third question[?] ->q3
+*First question[?]: ->q1
+*Second question[?]: ->q2
+*Third question[?]: ->q3
 
 ==q1==
-: What is green and sounds like a fart when squeezed?
+What is green and sounds like a fart when squeezed?
 *[I know the answer] ->answers.a1
 *[I give up, use a key] 
     Which key to use? Hmm...
@@ -33,7 +33,7 @@ VAR qs=3
         ->keys.k3->answers.a1
 
 ==q2==
-What is red and juice and is not a vegetable?
+What is red and juicy, and not a vegetable?
 *[I know the answer] ->answers.a2
 *[I give up, use a key] 
         Which key to use? Hmm...
